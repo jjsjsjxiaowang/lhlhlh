@@ -1,0 +1,159 @@
+@import url('https://fastly.jsdelivr.net/gh/scp-cn-tech/sigma9@cn/cn/sigma9_ch.min.css');
+ 
+/* 
+    鸡鸡。
+    ——jjsjsj
+ */
+}
+blockquote,
+div.blockquote{
+    background-color: #e8e8e8;
+}
+ 
+:root {
+    --quote-text-color: #ffffff;
+    --light-text-color: #000000;
+}
+darkquote,
+div.darkquote {
+    background-color: #1b1b1b;
+    color: var(--quote-text-color);
+    padding: 0.01rem 1rem;
+    margin: 0.5rem 0 0.5rem 0.25rem;
+    box-shadow: 0 0.2rem 0.3rem
+}
+ 
+lightquote,
+div.lightquote {
+    background-color: #f8f8f8;
+    color: var(--light-text-color);
+    padding: 0.01rem 1rem;
+    margin: 0.5rem 0 0.5rem 0.25rem;
+    box-shadow: 0 0.2rem 0.3rem
+}
+ 
+/* ---- 页眉 ---- */
+ 
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    content: "SCP基金会-BiliBili分部";
+    color: #ffffff;
+    font-weight: 700;
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: "控制，收容，保护";
+    font-weight: bold;
+    color: #F1F0C0;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
+}
+ 
+/* -------- YUI TAB -------- */
+ .yui-navset .yui-nav a,.yui-navset .yui-navset-top .yui-nav a{background-color:inherit;background-image:inherit}.yui-navset .yui-nav a:hover,.yui-navset .yui-nav a:focus{background:inherit;text-decoration:inherit}.yui-navset .yui-nav .selected a,.yui-navset .yui-nav .selected a:focus,.yui-navset .yui-nav .selected a:hover{color:inherit;background:inherit}.yui-navset .yui-nav,.yui-navset .yui-navset-top .yui-nav{border-color:inherit}.yui-navset li{line-height:inherit}
+ 
+/* -------- YUI TAB CUSTOMIZATION --------
+ * Adapted From 'Black Highlighter Theme'
+**/
+ .yui-navset .yui-nav,
+ .yui-navset .yui-navset-top .yui-nav{
+     display: flex;
+     flex-wrap: wrap;
+     width: calc(100% - .125rem);
+     margin: 0 auto;
+ 
+     border-color: #000000;
+     box-shadow: 0 calc(.0625rem * 5) 0 0 #000000;
+}
+ .yui-navset .yui-nav a, /* ---- Link Modifier ---- */
+ .yui-navset .yui-navset-top .yui-nav a{
+     color: hsl(0, 0%, 5%);
+     /* ---- Tab Background Colour | [UNSELECTED] ---- */
+     background-color: #f7f7f7;
+     /* -------- */
+     background-image: none;
+     border: unset;
+}
+ .yui-navset .yui-nav a:hover,
+ .yui-navset .yui-nav a:focus{
+     color: #000000;
+     /* ---- Tab Background Colour | [HOVER] ---- */
+     background-color: #c4c4c4;
+     /* -------- */
+}
+ .yui-navset .yui-nav li, /* ---- Listitem Modifier ---- */
+ .yui-navset .yui-navset-top .yui-nav li{
+     position: relative;
+     display: flex;
+     flex-grow: 2;
+     max-width: 100%;
+     margin: 0;
+     padding: 0;
+ 
+     background-color: hsl(0, 0%, 96%);
+     border-color: transparent;
+     box-shadow: 0 0 0 .0625rem #000000;
+}
+ .yui-navset .yui-nav li a,
+ .yui-navset-top .yui-nav li a,
+ .yui-navset-bottom .yui-nav li a{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+}
+ .yui-navset .yui-nav li em{
+     border: unset;
+}
+ .yui-navset .yui-nav a em,
+ .yui-navset .yui-navset-top .yui-nav a em{
+     padding: .35em .75em;
+ 
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+}
+ .yui-navset .yui-nav .selected, /* ---- Selection Modifier ---- */
+ .yui-navset .yui-navset-top .yui-nav .selected{
+     flex-grow: 2;
+     margin: 0;
+     padding: 0;
+ 
+     /* ---- Tab Background Colour | [SELECTED] ---- */
+     background-color: #000000;
+     /* -------- */
+}
+ .yui-navset .yui-nav .selected a,
+ .yui-navset .yui-nav .selected a em{
+     border: #000000;
+}
+ .yui-navset .yui-nav .selected a{
+     width: 100%;
+ 
+     color: hsl(0, 0%, 96%) !important;
+     background-image: none;
+}
+ .yui-navset .yui-nav .selected a:focus,
+ .yui-navset .yui-nav .selected a:active{
+     color: hsl(0, 0%, 96%);
+     background-color: #000000;
+}
+ .yui-navset .yui-nav .selected a:hover{
+     cursor: default;
+}
+ .yui-navset-left .yui-content{
+     /* ---- Content Background ---- */
+     background-color: #e8e8e8;
+     /* -------- */
+}
+ .yui-navset .yui-content,
+ .yui-navset .yui-navset-top .yui-content{
+     padding: .5em;
+     border-color: #000000;
+ }
