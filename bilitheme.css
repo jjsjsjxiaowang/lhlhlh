@@ -1,7 +1,7 @@
 @import url('https://fastly.jsdelivr.net/gh/scp-cn-tech/sigma9@cn/cn/sigma9_ch.min.css');
  
 /* 
-    鸡鸡。
+    [2026 Wikidot Theme]
     ——jjsjsj
  */
 }
@@ -33,12 +33,15 @@ div.lightquote {
 }
  
 /* ---- 页眉 ---- */
- 
+#header {
+    background: url('https://s41.ax1x.com/2026/08/20/pmxhPyV.png') 13px 35px no-repeat;
+    background-size: 94px 94px;
+} 
 div#header h1 a span {
     font-size: 0px;
 }
 div#header h1 a:before {
-    content: "SCP基金会-BiliBili分部";
+    content: "SCP基金会拜尔罗兰分部";
     color: #ffffff;
     font-weight: 700;
 }
@@ -47,7 +50,7 @@ div#header h2 span {
     padding: 4px;
 }
 div#header h2:after {
-    content: "控制，收容，保护";
+    content: "控制 收容 保护";
     font-weight: bold;
     color: #F1F0C0;
     padding: 19px 0;
